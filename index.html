@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANJANA | Web Developer </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Offside&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+    <!-- CURSOR -->
+
+    <div class="cursor"></div>
+
+    <!-- HEADER AND NAVIGATION -->
+
+    <header>
+        <a href="#" class="logo" id="logo1">ANJANA<span> A V</span></a>
+
+        <div class="menuToggle"></div> <!-- no onclick here -->
+        <ul class="nav" id="navMenu">
+            <li><a href="#home" class="hide">Home</a></li>
+            <li><a href="#about" class="hide">About</a></li>
+            <li><a href="#services" class="hide">Projects</a></li>
+            <li><a href="#portfolio" class="hide">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- HOME -->
+
+    <section id="home">
+        <div class="content">
+            <h2 id="myname">ANJANA A V</h2>
+            <p>Aspiring Software Developer | Java • Python • Flutter • Dart • Firebase • Web Development | B.Tech IT
+                Student</p>
+            <div class="btn-group">
+                <a href="resume.pdf" class="btn" id="downloadcv">Download CV</a>
+                <a href="#services" class="btn" id="works">Projects</a>
+                <a href="#contact" class="btn" id="gettouch">Get in Touch</a>
+            </div>
+            <div class="i">
+                <a href="https://www.linkedin.com/in/avanjana/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://wa.me/918075520525"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <a href="https://github.com/Avpg09"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-github"> Kerala, India </ion-icon></a>
+                
+            </div>
+        </div>
+        <img decoding="async" src="logo.jpg" alt="Men" class="men">
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about">
+        <div class="secText">
+            <h2>WHO I AM </h2>
+            <p>A passionate developer with a strong foundation in modern web technologies and a drive for innovation</p>
+        </div>
+        <div class="content">
+            <div class="imgBx">
+                <img decoding="async" src="logo.png" alt="men">
+            </div>
+            <div class="contBx">
+                <h3>About Me</h3>
+                <hr>
+                <p>Passionate and detail oriented aspiring Software and Web Developer with hands on experience in
+                    building responsive web applications and software projects using modern technologies such as HTML,
+                    CSS, JavaScript, Flutter, Node.js, and Python. Skilled in frontend , backend integration, debugging,
+                    and API-based development, with a strong interest in creating user friendly experiences.</p>
+                <br>
+                <p>I'm Experienced in developing academic and personal projects, including a Relax-on-error ( Visual
+                    Studio Code Extension ), Care-O ( Entertainment Software for senior citizens ) & Smart Meeting Minutes
+                    Generator ( for Online Meeting)</p>
+                <a href="#services" class="btn">Learn More</a>
+            </div>
+
+        </div>
+        <div class="one-side">
+            <div class="box1">
+
+                <h4 style="color: white;">Language</h4>
+                <hr>
+                <br>
+                <div class="skills">
+                    <div class="langu">
+                        <p>English</p>
+                    </div>
+                    <div class="langu">
+                        <p>Malayalam</p>
+                    </div>
+                    <div class="langu">
+                        <p>Hindi</p>
+                    </div>
+                    <div class="langu">
+                        <p>Telugu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+
+                <h4 style="color: white;">Hobbies</h4>
+                <hr>
+                <br>
+                <div class="skills">
+                    <div class="langu">
+                        <p>Coding</p>
+                    </div>
+                    <div class="langu">
+                        <p>Exploring</p>
+                    </div>
+                    <div class="langu">
+                        <p>Learning New Things</p>
+                    </div>
+                    <div class="langu">
+                        <p>Researching</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="edn">
+            <h2>Education</h2>
+            <div class="edn-content">
+                <div class="insti">
+                    <h3>B.TECH INFORMATION TECHNOLOGY</h3>
+                    <hr>
+                    <p>G.E.C.IDUKKI</p>
+                    <p>2022-2026( Pursuing ) </p>
+                </div>
+                <div class="insti">
+                    <h3>HIGHER SECONDARY </h3>
+                    <hr>
+                    <p>G..H.S.S.VILLADAM, THRISSUR</p>
+                    <p>2020-2022 </p>
+                    <p>91.8%</p>
+                </div>
+                <div class="insti">
+                    <h3>HIGH SCHOOL</h3>
+                    <hr>
+                    <p>H.F.C.G.H.S CHEMBUKAVU, THRISSUR</p>
+                    <p>2014-2020</p>
+                    <p>95%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+
+    <section id="portfolio">
+        <div class="secText">
+            <h2 style="font-family: 'Audiowide', sans-serif ">Skills and Technologies</h2>
+            <p>A snapshot of the technologies, tools, and development skills I use to build modern applications</p>
+        </div>
+        <!-- <div class="content">
+            <div class="imgBx">
+                <img decoding="async" src="girl.jpg" alt="image1">
+            </div>
+            <div class="imgBx">
+                <img decoding="async" src="girl.jpg" alt="image2">
+            </div>
+            <div class="imgBx">
+                <img decoding="async" src="girl.jpg" alt="image3">
+            </div>
+            <div class="imgBx">
+                <img decoding="async" src="logo.png" alt="image4">
+            </div>
+            <div class="imgBx">
+                <img decoding="async" src="logo.png" alt="image5">
+            </div>
+            <div class="imgBx">
+                <img decoding="async" src="girl.jpg" alt="image6">
+            </div>
+        </div> -->
+        <div class="tech">
+            <div class="tech1">
+                <button onclick="showContent('one')" class="techbtn">Frontend Development</button>
+                <button onclick="showContent('two')" class="techbtn">Backend Development</button>
+                <button onclick="showContent('six')" class="techbtn">Mobile development</button>
+                <button onclick="showContent('three')" class="techbtn">Database Managemanet</button>
+                <button onclick="showContent('four')" class="techbtn">Tools & Technologies</button>
+                <button onclick="showContent('five')" class="techbtn">Programming Languages</button>
+                <button onclick="showContent('seven')" class="techbtn">Soft Skills</button>
+            </div>
+
+            <!-- RIGHT SIDE (BLUE) -->
+            <div class="tech2">
+                <div id="one" class="content4 active">
+                    <div class="containers">
+                        <div class="skill">
+                            <div class="heading">
+                                <p>HTML5 <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="95"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Tailwind CSS <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="93"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>JavaScript <span class="perc"> 0%</span> </p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Responsive Web Design <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>DOM Manipulation <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="two" class="content4">
+                    <div class="containers">
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Node.js <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="90"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Express.js <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>REST APIs <span class="perc"> 0%</span> </p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>API integration <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Authentication Basics <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="three" class="content4">
+                    <div class="containers">
+                        <div class="skill">
+                            <div class="heading">
+                                <p>MySQL<span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="90"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>MongoDB <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>FireBase FireStore <span class="perc"> 0%</span> </p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>CRUD Operations <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Database Design <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="four" class="content4">
+                    <div class="containers">
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Git <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="98"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>GitHub<span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="95"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>FireBase <span class="perc"> 0%</span> </p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Postman<span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="five" class="content4">
+                    <div class="containers">
+                        <div class="skill">
+                            <div class="heading">
+                                <p>JavaScript <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="90"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Dart <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="95"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Python<span class="perc"> 0%</span> </p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="97"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>C <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Java<span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="six" class="content4">
+                    <div class="containers">
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Flutter  <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="95"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Dart<span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="95"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Cross-Pkatform App Development<span class="perc"> 0%</span> </p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Firebase Integration <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="93"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>UI Developement<span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="98"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="seven" class="content4">
+                    <div class="containers">
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Problem Solving <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="95"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Time Management <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="93"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Team collaborations <span class="perc"> 0%</span> </p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Obeservation Skill <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="heading">
+                                <p>Quick Learning <span class="perc"> 0%</span></p>
+                            </div>
+                            <div class="bar">
+                                <div class="progress" data-progress="98"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- <div class="center">
+            <a href="#" class="btn">See More</a>
+        </div> -->
+    </section>
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="secText">
+            <h2 style="font-family: 'Audiowide', sans-serif ">FEATURED PROJECTS</h2>
+            <p>A showcase of innovative solutions and technical expertise across various domains.</p>
+        </div>
+        <div class="content">
+            <div class="serviceBx">
+                <img decoding="async" src="careo.jpg" alt="Services">
+                <h3>CARE-O: A platform for senior citizens.</h3>
+                <p>CareO is a senior citizen support application designed to provide entertainment, engagement, and
+                    personal assistance in a simple and user-friendly digital platform.
+                    The app focuses on improving the daily lifestyle, emotional well-being, and convenience of elderly
+                    users by combining fun activities with helpful assistance features.</p>
+                <br>
+                <div class="center">
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="serviceBx">
+                <img decoding="async" src="Relax-on-error.png" alt="Services">
+                <h3>Relax-on-error</h3>
+                <p>Relax On Error is a Visual Studio Code extension created to improve the developer experience by
+                    making coding errors feel less stressful and more manageable.
+                    Instead of treating errors as frustrating interruptions, the extension adds a lightweight,
+                    supportive, and engaging layer to the coding environment whenever an error occurs.</p>
+                <br>
+                <div class="center">
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="serviceBx">
+                <img decoding="async" src="smartmeeting.png" alt="Services">
+                <h3>Smart Meeting Minutes Generator</h3>
+                <p>Smart Meeting Minutes Generator is an intelligent meeting automation system designed to join online
+                    meetings, record conversations, convert speech to text, identify speakers, and automatically
+                    generate structured meeting minutes.
+
+                    The main goal of the project is to reduce the manual effort required in documenting meetings by
+                    automatically producing a clear summary of discussions, decisions, action items, and deadlines.</p>
+                <div class="center">
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <!-- <div class="serviceBx">
+                <img decoding="async" src="logo.png" alt="Services">
+                <h3>Conetnt Writing</h3>
+            </div> -->
+        </div>
+    </section>
+
+
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+        <div class="secText">
+            <h2 style="font-family: 'Audiowide', sans-serif ">Contact Me</h2>
+            <p>Feel free to reach out for web development projects, collaborations, or freelance opportunities. I'm
+                always open to discussing creative ideas and new opportunities.</p>
+        </div>
+        <div class="content" id="contact1">
+            <a href="mailto:anjana.a.vinodkumar@gmail.com">
+                <ion-icon name="mail-outline"></ion-icon>
+                Gmail
+            </a>
+            <a href="tel:+918075520525"><ion-icon name="call-outline"></ion-icon>Call Me</a>
+            <a href="https://www.linkedin.com/in/avanjana/"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a>
+            <a href="https://wa.me/918075520525"><ion-icon name="logo-whatsapp"></ion-icon>WhatsApp</a>
+            <a href="https://github.com/Avpg09"><ion-icon name="logo-github"></ion-icon>GitHub</a>
+        </div>
+        <section id="contact2">
+
+            <form id="contact-form">
+                <input type="text" name="user_name" placeholder="Your Name" required>
+                <input type="email" name="user_email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="form-status"></p>
+        </section>
+        <div class="center">
+            <p class="copyright" style="padding: 0px;">Copyright© 2026 | <a href="#">anjanaav</a></p>
+        </div>
+    </section>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
